@@ -1,60 +1,61 @@
-# Electric-Vehicle-Dashboard
+# Electric Vehicle Data Analysis Dashboard
 
-The electric Vehicle analytics dashboard is designed to provide insights to rapidly growing EV industry. It levarages Power Bi to clean, model and visualize EV-related data, offering stakeholders a clear view of:
+## Project Overview
 
-1.Adoption growth across years
+The Electric Vehicle Data Analysis Dashboard is an interactive Power BI project designed to provide insights into the rapidly growing electric vehicle (EV) industry. The dashboard leverages Power BI to clean, transform, model, and visualize EV-related data, enabling stakeholders to better understand market trends and make data-driven decisions.
 
-2.Manufacturer performance
+## Objectives
 
-3.Vehicle types (Battery electric & Plug-in-hybrid)
-
-4.Range capabilities and trends
+- Analyze EV adoption growth over the years.
+- Compare manufacturer performance.
+- Understand the distribution of Battery Electric Vehicles (BEVs) and Plug-in Hybrid Electric Vehicles (PHEVs).
+- Analyze electric range trends across different vehicle models.
 
 ## Tech Stack
-The dashboard was built using the following technologies:
 
-1. Power BI -- Data visualization & dashboard development
-2. Power Query -- Data cleaning & transformation
-3. DAX ( Data analysis expression) -- Custom measure & calculation
-4. Excel/Csv -- Data source integration
+- **Power BI** – Data visualization and dashboard development
+- **Power Query** – Data cleaning and transformation
+- **DAX (Data Analysis Expressions)** – Custom measures and calculations
+- **Microsoft Excel / CSV** – Data source
 
-## Data Source
+## Dataset
 
-Dataset: Electric_Vehicle_data.csv 
+**File:** `Electric_Vehicle_Data.csv`
 
-The dataset contain information about registered electric vehicle, including:
+The dataset contains information about registered electric vehicles, including:
 
-1. Company, Model, and Model year
-2. Electric range (miles)
-3. Vehicle Type (BEV & PHEV)
-4. Location & registration details
+- Manufacturer
+- Model
+- Model Year
+- Electric Range (Miles)
+- Vehicle Type (BEV & PHEV)
+- Registration Location
 
+## Dashboard Features
 
-## Features / Highlights
-
-✔ Interactive dashboard with filters & slices ( by manufacturer, model year, vehicle type)
-
-✔ EV adoption trend analysis over time
-
-✔ Manufacturer comparison (top EV producers)
-
-✔ Electric range distributuon & insights
-
-✔ Adoption share of BEVs VS PHEVs
-
-✔ Clean, modern UI build with storytelling in mind
-
-
+- Interactive dashboard with slicers and filters
+- EV adoption trend analysis over time
+- Manufacturer performance comparison
+- Electric range distribution analysis
+- BEV vs PHEV market share analysis
+- Clean and modern dashboard design
 
 ## Key Insights
 
-1. EV Adoption Growth :- Consistent increase in registrations year over year
-2. Top manufacturer :- Certain brands dominate EV sales across multiple years
-3. Range Trends :- Newer EV models show steadily increasing electric range
-4. Vehicle Type Share :- BEVs represent a growing share compared to PHEVs
+- EV registrations have increased consistently over the years.
+- A few leading manufacturers dominate the EV market.
+- Newer EV models generally offer higher electric ranges.
+- Battery Electric Vehicles (BEVs) represent a growing share compared to Plug-in Hybrid Electric Vehicles (PHEVs).
 
+## Tools Used
 
-## Screenshots
+- Power BI Desktop
+- Power Query
+- DAX
+- Microsoft Excel
 
-![App Screenshot](https://github.com/LalitK2811/Electric-Vehicle-Dashboard/blob/main/Snapshot%20of%20the%20Dashboard.png
-)
+## Author
+
+**Lokesh Khakal**
+
+GitHub: https://github.com/lokeshk30
